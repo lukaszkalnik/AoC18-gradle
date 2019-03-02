@@ -5,7 +5,7 @@ import extensions.scan
 import java.io.File
 
 fun main() {
-    File(ClassLoader.getSystemResource("input1.txt").file)
+    File(ClassLoader.getSystemResource("input01.txt").file)
         .readLines()
         .map { it.toInt() }
         .let { solve02(it) }
